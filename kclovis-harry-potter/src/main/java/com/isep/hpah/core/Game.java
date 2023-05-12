@@ -17,7 +17,7 @@ public class Game {
 
     Wizard wizard;
     List<RpgMap> maps;
-    int round = 6;
+    int round = 1;
 
     // Bill Pugh Singleton
     private static class GameHelper {
