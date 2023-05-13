@@ -12,7 +12,7 @@ public class Wand {
     public Wand() {
         // generate random core
         this.core = randomCore();
-        this.size = Rand.getInstance().randomInt(30);
+        this.size = Rand.getInstance().randomInt(15)+20;
     }
 
     private Core randomCore() {
